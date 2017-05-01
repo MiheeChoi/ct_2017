@@ -1,5 +1,4 @@
 ﻿import turtle
-wn=turtle.Screen
 wn=turtle.Screen()
 t1=turtle.Turtle()
 t1.speed(2)
