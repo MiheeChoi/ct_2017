@@ -1,0 +1,39 @@
+?from PIL import Image
+ 
+m = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.jpg")
+ 
+m.show()
+ 
+%matplotlib inline
+ 
+from matplotlib.pyplot import imshow
+ 
+imshow(m)
+ 
+ 
+ 
+m.save("C://Users//HOME//Desktop/italy-1587287_1920.png")
+ 
+M=Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
+ 
+M.show()
+ 
+%matplotlib inline
+ 
+from matplotlib.pyplot import imshow
+ 
+imshow(M)
+ 
+ 
+ 
+m.save("C://Users//HOME//Desktop/italy-1587287_1920.gif")
+ 
+m_gif = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.gif")
+ 
+m_gif.show()
+ 
+%matplotlib inline
+ 
+from matplotlib.pyplot import imshow
+ 
+imshow(m_gif) 
