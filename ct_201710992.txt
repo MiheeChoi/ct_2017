@@ -1,4 +1,4 @@
-?from PIL import Image
+from PIL import Image
  
 m = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.jpg")
  
@@ -12,7 +12,7 @@ imshow(m)
  
  
  
-m.save("C://Users//HOME//Desktop/italy-1587287_1920.png")
+m.save("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
  
 M=Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
  
@@ -26,7 +26,7 @@ imshow(M)
  
  
  
-m.save("C://Users//HOME//Desktop/italy-1587287_1920.gif")
+m.save("C:\\Users\\user\\Documents\\italy-1587287_1920.gif")
  
 m_gif = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.gif")
  
