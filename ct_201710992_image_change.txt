@@ -1,28 +1,28 @@
 from PIL import Image
  
-m = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.jpg")
+m_jpg = Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.jpg")
  
-m.show()
+m_jpg.show()
  
 %matplotlib inline
  
 from matplotlib.pyplot import imshow
  
-imshow(m)
+imshow(m_jpg)
  
  
  
 m.save("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
  
-M=Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
+M_png=Image.open("C:\\Users\\user\\Documents\\italy-1587287_1920.png")
  
-M.show()
+M_png.show()
  
 %matplotlib inline
  
 from matplotlib.pyplot import imshow
  
-imshow(M)
+imshow(M_png)
  
  
  
